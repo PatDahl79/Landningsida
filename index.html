@@ -6,37 +6,40 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Chas Academy</title>
+    <title>Chas Academy-landningssida uppgift</title>
 
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="img/Logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Educations</a></li>
-                    <li><a href="">Contact</a></li>
-                    <a href="" class="hero-btn">Apply.</a>
-                </ul> 
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-    </section>
-    
-    <section>
+    <div class="top">
+        <header>
+            <nav>
+                <a href="index.html"><img src="img/Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Educations</a></li>
+                        <li><a href="">Contact</a></li>
+                        <a href="" class="hero-btn">Apply.</a>
+                    </ul> 
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+
+        <!--- Hero-section-->
         <div class="text-box">
             <h1>Sweden's greatest university of applied sciences</h1>
             <br>
             <p>We will make sure that you reach your goals! <br> You just need to learn HTML, CSS, JavaScript, and you are good to go.</p>
             <a href="" class="hero-btn">Apply.</a>
         </div>
-    </section>
-   
-    <section>
+
+    </div> 
+
+   <!-- informerande-->
+    <section class="informerande">
         <div class="row">
             <div class="col-2">
                 <img src="img/digitalabocker.jpg.webp">
@@ -46,15 +49,14 @@
                 <a href="" class="hero-btn">Läs mer om oss.</a>
                 <br>
                 <p>We will make sure that you reach your goals! <br> You just need to learn HTML, CSS, JavaScript, and you are good to go.</p>
-                
-            </div> 
+            </div>
         </div>
-    <section>
+    </section>
 
+    <!--Rekommendationer-->
     <section class="comment">
         <h1>What our students say?</h1>
-    </section>
-    <div class="rekomendation">
+        <div class="rekomendation">
             <div class="rekomendationer">
                 <h3>Fun</h3>
                 <p>....... <br> ....</p>
@@ -73,9 +75,11 @@
                 <img src="img/girl 2.avif">
                 <h4>Rose M</h4>
             </div>
-    </div>
-
-    <section>
+        </div>
+    </section>
+    
+<!---upprepa call to action--->
+    <section class="Upprepa">
         <div class="text-box2">
             <h1>The application is open!</h1>
             <p>Be the one of our students! <br> We will be happy to have you here.</p>
@@ -85,13 +89,12 @@
     </section>
 
 <!--fotter-->
-
 <footer>
-    
+    <hr>
     <div class="row">
         <div class="footer-col-1">
             <ul>
-                 <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="">YH-program</a></li>
                 <li><a href="">Chas upskill</a></li>
                 <li><a href="">About us</a></li>
@@ -120,11 +123,8 @@
             <img src="img/Logo.png">
         </div>
     </div>
-
-    
         <hr>
         <p class="copyright">Made by Pat Dahl, Chasacademy's student</p>
-
 </footer>
 
 <script>
