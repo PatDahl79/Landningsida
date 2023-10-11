@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script></script>
     <title>Chas Academy-landningssida uppgift</title>
 
 </head>
@@ -22,7 +23,7 @@
                         <div class="hero-btn" id="loginBtn">Sign in</div>
                     </ul> 
                 </div>
-                <button class="menu-button" onclick="showMenu()"><i class="material-icons">menu</i></button>
+                    <button class="menu-button" onclick="showMenu()"><i class="material-icons">menu</i></button>
             </nav>
     </section>
 
@@ -64,8 +65,6 @@
         <div class="grid-container">
             <h3>UX/UI designer with fronten expertise</h3>
             <p>User-centered design is one of the most in-demand IT skills. 
-                <br><br>It is strongly related to the growing online trade, 
-                the digitization of society and increased demands for accessibility on the web, as the user interface is one of the most important factors in reaching target groups with a digital service or product. 
                 <br><br>A UX/UI designer with front-end competence has a combination of specialized knowledge in design and design processes as well as knowledge of the adjacent field of software development.</p>
                 <span class="icon-link">
                     <a href="" class="hero-btn">Get to know our program<i class="material-icons">&#xe5c8;</i></a>
@@ -146,10 +145,10 @@
         
 
 <!--login section-->
-<section class="Logga-in">
+
     <div class="Logga-in">
         <div class="log-in">
-            <h2>Sign in</h2>
+            <h2>Sign in</h2><br>
             <form action="https://httpbin.org/anything" method="post">
                 <label for="username">Username:</label>
                 <input id="username" name="username" type="text" required><br>
@@ -157,33 +156,33 @@
                 <input id="password" name="password" type="password" required><br>
                 <button type="submit">Submit</button>
             </form>
-        </div>
-        <div class="forget-password">
-            <h2>Forget yours password?</h2>
-            <form action="https://httpbin.org/anything" method="post">
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" required>
-                <button type="submit">Submit</button>
-            </form>
+            <div class="forget-password">
+                <h2>Forget yours password?</h2>
+                <form action="https://httpbin.org/anything" method="post">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" required><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
 
-        <div class="Sign-up">
-            <h2>Sign up</h2>
+        <div class="sign-up">
+            <h2>Sign up</h2><br>
             <form action="https://httpbin.org/anything" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required><br>
                 
                 <label for="lastname">Last name:</label>
                 <input type="text" id="lastname" name="lastname" required><br> 
                
-                <label for="telephonenumber">Telephone number:</label>
-                <input type="number" id="telephonenumber" name="telephonenumber" required>
+                <label for="telephonenumber">Phone number:</label>
+                <input type="number" id="telephonenumber" name="telephonenumber" required><br>
                 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br>
                
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="password" required><br>
                
                 <label for="password">Confirm password:</label>
                 <input type="password" id="password" name="password" required><br>
@@ -202,7 +201,7 @@
             </div>
 
             <div class="interacts">
-                <h2>What is your interest?</h2>
+                <h2>What are your interest?</h2>
                     <input type="checkbox" id="programming" name="interests" value="programming">
                     <label for="programming">Programmering</label>
                     <input type="checkbox" id="gaming" name="interests" value="gaming">
@@ -220,12 +219,11 @@
             <button type="submit">Submit</button>
         </div>
     </div>
-</section>
     <!--Slut login section-->
 
 
 <!--fotter-->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer-1">
                 <ul>
@@ -255,10 +253,11 @@
                 <img src="img/Logo.png" alt="Chas Academy Logo">
             </div>
         </div>
-    <hr>
-    <p class="copyright">Made by Pat Dahl, Chasacademy's student</p>
+
     </footer>
 <!--slut fotter-->
+<hr>
+<p class="copyright">Made by Pat Dahl, Chas academy's student</p>
 
 <script>
     var navLinks = document.getElementById("navLinks")
